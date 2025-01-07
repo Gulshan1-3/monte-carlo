@@ -12,15 +12,14 @@ To compute the probability mathematically:
 1. Assume there are 365 days in a year and birthdays are uniformly distributed.
 2. The probability that no two people in a group of `N` share a birthday is given by:
 
-   \[
-   P(\text{no shared birthday}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \dots \frac{365-N+1}{365}
-   \]
+**2. Probability of no shared birthday:**
 
-3. The probability of at least one shared birthday is:
+P(no shared birthday) = 
+\frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times ... \times \frac{365 - N + 1}{365}
 
-   \[
-   P(\text{shared birthday}) = 1 - P(\text{no shared birthday})
-   \]
+**3. Probability of at least one shared birthday:**
+
+P(shared birthday) = 1 - P(no shared birthday)
 
 For larger groups, direct computation becomes cumbersome. Here, the Monte Carlo method provides an efficient approximation.
 
