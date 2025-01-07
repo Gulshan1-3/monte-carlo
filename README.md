@@ -14,8 +14,7 @@ To compute the probability mathematically:
 
 **2. Probability of no shared birthday:**
 
-P(no shared birthday) = 
-\frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times ... \times \frac{365 - N + 1}{365}
+P(no shared birthday) = (365/365) * (364/365) * (363/365) * ... * ((365 - N + 1)/365)
 
 **3. Probability of at least one shared birthday:**
 
@@ -32,9 +31,9 @@ The Monte Carlo method involves running a large number of random simulations to 
 3. Repeat this simulation for many trials.
 4. Estimate the probability as:
 
-   \[
-   P(\text{shared birthday}) \approx \frac{\text{Number of trials with shared birthdays}}{\text{Total trials}}
-   \]
+ ## P(shared birthday) ≈ Number of trials with shared birthdays / Total trials
+
+
 
 ---
 
