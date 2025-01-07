@@ -5,7 +5,7 @@ This repository contains a Rust implementation of the **Birthday Paradox** simul
 ---
 
 ## What is the Birthday Paradox?
-The Birthday Paradox refers to the counterintuitive probability that in a group of just 23 people, there's about a 50% chance that two people share the same birthday. The probability grows rapidly with the number of people in the group.
+The Birthday Paradox refers to the counterintuitive probability that in a group of just 30 people, there's about a 70.635% chance that two people share the same birthday. The probability grows rapidly with the number of people in the group.
 
 ### Mathematical Background
 To compute the probability mathematically:
